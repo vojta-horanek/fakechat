@@ -33,14 +33,14 @@ def m(str):
 	else:
 		print ip1, ":", str		
 w(0.5)
-m("Mám problém")
+m("Hello")
 i()
 w(3)
-m("Našli mě")
+m("How are you?")
 i()
 w(4)
-m("Bohužel nedělám, prý mi hrozí až 3 roky!")
+m("Me too!")
 i()
 w(2)
-m("No to teda!")
+m("Ok!")
 w(20)
