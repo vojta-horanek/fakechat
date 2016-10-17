@@ -6,7 +6,7 @@ import os
 import time
 from random import randint
 
-use_random_ip = "true" #changing this to false will use the ip addresses described below, default is true
+use_random_ip = "true" #changing this to false or anything else than true, will use the ip addresses described below, default is true
 ip1 = "84.246.186.0"
 ip2 = "84.265.126.0"
 
