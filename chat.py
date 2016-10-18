@@ -6,7 +6,7 @@ import os
 import time
 from random import randint
 
-use_random_ip = "true" #changing this to false or anything else than true, will use the ip addresses described below, default is true
+use_random_ip = "true" #changing this to false will use the ip addresses described below, default is true
 ip1 = "84.246.186.0"
 ip2 = "84.265.126.0"
 
@@ -32,15 +32,14 @@ def m(str):
 		print ("%d:%d:%d:%d : %s" % (number1, number2, number3, number4, str))
 	else:
 		print ip1, ":", str		
-w(0.5)
-m("Hello")
-i()
-w(3)
-m("How are you?")
-i()
-w(4)
-m("Me too!")
-i()
-w(2)
-m("Ok!")
-w(20)
+#if the third argument is 1 there will be an input after the message
+def f(message, time, input):
+	m(message)
+	if input == 1:
+		i()
+	w(time)
+	
+f("Hi!", 2, 1)
+f("What's up?", 2, 1)
+f("I'm doing great!", 2, 1)
+f("Am i smart?", 2, 1)
